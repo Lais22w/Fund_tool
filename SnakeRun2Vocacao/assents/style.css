@@ -14,7 +14,7 @@
 
 
 body,
-main {
+main{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #20b4b4a1;
     display: flex;
@@ -32,9 +32,10 @@ h1 {
 }
 
 canvas {
-    background-color: rgba(0, 0, 0, 0.89);
+    background-image: linear-gradient(to right, red, blue);
+    background-color: rgba(4, 0, 11, 0.89);
     align-items: center;
-    border: 5px solid #fe0707;
+    border: 5px solid #070505;
 }
 
 .score {
